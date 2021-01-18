@@ -1,0 +1,11 @@
+{
+  "name": "test-practice",
+  "version": "1.0.0",
+  "description": "This is test practice to the Odin curriculum.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
