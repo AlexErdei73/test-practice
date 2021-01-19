@@ -10,5 +10,5 @@ test("capitalize little should be Little", () => {
 });
 
 test("reverseString alex should be xela", () => {
-  expect(capitalize("alex")).toBe("xela");
+  expect(reverseString("alex")).toBe("xela");
 });

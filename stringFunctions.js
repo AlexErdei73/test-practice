@@ -5,5 +5,9 @@ export function capitalize(string) {
 }
 
 export function reverseString(string) {
-  return string;
+  let reversed = "";
+  for (let i = string.length; i--; i >= 0) {
+    reversed = reversed + string.charAt(i);
+  }
+  return reversed;
 }
